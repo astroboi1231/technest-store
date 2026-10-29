@@ -62,6 +62,7 @@ PRODUCTS = [
     {"id":"mic","name":"USB Streaming Microphone","category":"Audio","desc":"Cardioid pickup · Plug and play","price":6999,"old":8499,"emoji":"🎙️","rating":"★★★★☆","tag":"CREATOR"},
     {"id":"webcam","name":"Full HD Streaming Webcam","category":"Accessories","desc":"1080p · Auto light correction","price":4499,"old":5999,"emoji":"📷","rating":"★★★★☆","tag":"WORK & PLAY"},
     {"id":"deskmat","name":"Extended RGB Desk Mat","category":"Accessories","desc":"Large surface · Stitched edges","price":1999,"old":2699,"emoji":"🌈","rating":"★★★★☆","tag":"SETUP PICK"},
+    {"id":"ajazz-nk68","name":"Ajazz NK68","category":"Keyboard","desc":"Mechanical gaming keyboard","price":2400,"old":2600,"emoji":"⌨️","rating":"★★★★★","tag":"NEW"},
 ]
 CATEGORIES = ["All Products"] + sorted({p["category"] for p in PRODUCTS})
 
